@@ -39,6 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         activityCard.innerHTML = `
           <h4>${name}</h4>
+          <div class="activity-meta">
+            <span class="category-badge ${details.category.toLowerCase()}">${details.category}</span>
+            <span class="date-info">Created: ${details.date}</span>
+          </div>
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>

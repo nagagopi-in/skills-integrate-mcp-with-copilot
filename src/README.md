@@ -42,6 +42,8 @@ The application uses a simple data model with meaningful identifiers:
    - Schedule
    - Maximum number of participants allowed
    - List of student emails who are signed up
+   - **Category** - Classification of activity (Sports, Academic, Arts, Games)
+   - **Date** - Creation or reference date for the activity
 
 2. **Students** - Uses email as identifier:
    - Name

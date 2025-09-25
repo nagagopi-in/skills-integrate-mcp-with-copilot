@@ -27,7 +27,9 @@ activities = {
         "category": "Games",
         "date": "2025-09-26",
         "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"],
+        "category": "Games",
+        "date": "2024-01-15"
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
@@ -35,7 +37,9 @@ activities = {
         "category": "Academic",
         "date": "2025-09-30",
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"],
+        "category": "Academic",
+        "date": "2024-01-10"
     },
     "Gym Class": {
         "description": "Physical education and sports activities",
@@ -43,7 +47,9 @@ activities = {
         "category": "Sports",
         "date": "2025-09-29",
         "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        "participants": ["john@mergington.edu", "olivia@mergington.edu"],
+        "category": "Sports",
+        "date": "2024-01-08"
     },
     "Soccer Team": {
         "description": "Join the school soccer team and compete in matches",
@@ -51,7 +57,9 @@ activities = {
         "category": "Sports",
         "date": "2025-10-01",
         "max_participants": 22,
-        "participants": ["liam@mergington.edu", "noah@mergington.edu"]
+        "participants": ["liam@mergington.edu", "noah@mergington.edu"],
+        "category": "Sports",
+        "date": "2024-01-12"
     },
     "Basketball Team": {
         "description": "Practice and play basketball with the school team",
@@ -59,7 +67,9 @@ activities = {
         "category": "Sports",
         "date": "2025-10-02",
         "max_participants": 15,
-        "participants": ["ava@mergington.edu", "mia@mergington.edu"]
+        "participants": ["ava@mergington.edu", "mia@mergington.edu"],
+        "category": "Sports",
+        "date": "2024-01-20"
     },
     "Art Club": {
         "description": "Explore your creativity through painting and drawing",
@@ -67,7 +77,9 @@ activities = {
         "category": "Arts",
         "date": "2025-09-28",
         "max_participants": 15,
-        "participants": ["amelia@mergington.edu", "harper@mergington.edu"]
+        "participants": ["amelia@mergington.edu", "harper@mergington.edu"],
+        "category": "Arts",
+        "date": "2024-01-18"
     },
     "Drama Club": {
         "description": "Act, direct, and produce plays and performances",
@@ -75,7 +87,9 @@ activities = {
         "category": "Arts",
         "date": "2025-09-27",
         "max_participants": 20,
-        "participants": ["ella@mergington.edu", "scarlett@mergington.edu"]
+        "participants": ["ella@mergington.edu", "scarlett@mergington.edu"],
+        "category": "Arts",
+        "date": "2024-01-22"
     },
     "Math Club": {
         "description": "Solve challenging problems and participate in math competitions",
@@ -83,7 +97,9 @@ activities = {
         "category": "Academic",
         "date": "2025-09-30",
         "max_participants": 10,
-        "participants": ["james@mergington.edu", "benjamin@mergington.edu"]
+        "participants": ["james@mergington.edu", "benjamin@mergington.edu"],
+        "category": "Academic",
+        "date": "2024-01-14"
     },
     "Debate Team": {
         "description": "Develop public speaking and argumentation skills",
@@ -91,7 +107,9 @@ activities = {
         "category": "Academic",
         "date": "2025-10-03",
         "max_participants": 12,
-        "participants": ["charlotte@mergington.edu", "henry@mergington.edu"]
+        "participants": ["charlotte@mergington.edu", "henry@mergington.edu"],
+        "category": "Academic",
+        "date": "2024-01-25"
     }
 }
 
