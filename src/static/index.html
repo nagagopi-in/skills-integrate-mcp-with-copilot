@@ -1,1 +1,48 @@
-<h1>Mergington High School Activities</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mergington High School Activities</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mergington High School Activities</h1>
+        <p>Discover and join extracurricular activities at our school</p>
+    </header>
+
+    <main>
+        <section id="activities-section">
+            <h2>Available Activities</h2>
+            <div id="activities-list">
+                <p>Loading activities...</p>
+            </div>
+        </section>
+
+        <section id="signup-section">
+            <h2>Sign Up for an Activity</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="activity">Activity:</label>
+                    <select id="activity" name="activity" required>
+                        <option value="">Select an activity</option>
+                    </select>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div id="message" class="message hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mergington High School. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
