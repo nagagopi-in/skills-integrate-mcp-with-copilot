@@ -13,6 +13,12 @@
     </header>
 
     <main>
+        <section id="view-toggle">
+            <button id="list-view-btn" class="view-btn active">List View</button>
+            <button id="calendar-view-btn" class="view-btn">Calendar View</button>
+            <button id="admin-toggle-btn" class="admin-btn">Admin Mode</button>
+        </section>
+
         <section id="activities-section">
             <h2>Available Activities</h2>
             <div id="activities-list">
@@ -20,7 +26,58 @@
             </div>
         </section>
 
-        <section id="signup-section">
+        <section id="calendar-section" class="hidden">
+            <h2>Event Calendar</h2>
+            <div id="calendar-controls">
+                <button id="prev-month">&lt;</button>
+                <span id="current-month"></span>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div id="calendar-grid"></div>
+        </section>
+
+        <section id="admin-section" class="hidden">
+            <h2>Create New Event</h2>
+            <form id="event-form">
+                <div class="form-group">
+                    <label for="event-name">Event Name:</label>
+                    <input type="text" id="event-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="event-description">Description:</label>
+                    <textarea id="event-description" name="description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="event-category">Category:</label>
+                    <select id="event-category" name="category" required>
+                        <option value="">Select category</option>
+                        <option value="Academic">Academic</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Games">Games</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="event-date">Event Date:</label>
+                    <input type="date" id="event-date" name="event_date" required>
+                </div>
+                <div class="form-group">
+                    <label for="event-time">Time:</label>
+                    <input type="text" id="event-time" name="event_time" placeholder="e.g., 3:30 PM - 5:00 PM" required>
+                </div>
+                <div class="form-group">
+                    <label for="event-location">Location:</label>
+                    <input type="text" id="event-location" name="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="max-participants">Max Participants:</label>
+                    <input type="number" id="max-participants" name="max_participants" min="1" required>
+                </div>
+                <button type="submit">Create Event</button>
+            </form>
+        </section>
+
+        <section id="signup-section")>
             <h2>Sign Up for an Activity</h2>
             <form id="signup-form">
                 <div class="form-group">
